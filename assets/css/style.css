@@ -345,3 +345,12 @@ html, body, pre, code, kbd, samp {
     background: yellow;
     color: blue;
 }
+
+img.smicon {
+    image-rendering: pixelated;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+
+}

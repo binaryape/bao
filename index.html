@@ -2,10 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Binary-Ape.Org</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Homepage for Pete Birkinshaw" />
+    <meta name="keywords" content="homepage" />
+    <meta name="author" content="© Peter Birkinshaw 2023" />
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="shortcut icon" sizes="196x196" href="assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="assets/images/favicon.png">
     <link href="assets/css/nes.min.css" rel="stylesheet" media="screen"/>
     <link href="assets/css/style.css" rel="stylesheet" media="screen"/>
     <script src="assets/js/script.js"></script>
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Binary-Ape.Org Pete Birkinshaw's Homepage" />
+        <meta property="og:url" content="https://binary-ape.org" />
+        <meta property="og:description" content="Homepage for Pete Birkinshaw" />
+<!--        <meta property="og:image" content="x.png" />-->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@binaryape" />
+        <meta name="twitter:creator" content="@binaryape" />
+<!--        <meta name="twitter:image" content="x.png" />-->
+
 </head>
 <body br-mode="off" saccades-color="" fixation-strength="2" saccades-interval="0"
       style="--fixation-edge-opacity:80%; --br-line-height:1; --br-boldness:600;">
@@ -135,7 +154,7 @@
                 <section class="nes-container with-title"><h3 class="title">Photography</h3>
 
                     <p>I've had photographs published in books, national newspapers and in Wikipedia, mostly because
-                        they were free and well-provided with metadata keywords.</p>
+                        they were free and well-garnished with metadata keywords.</p>
 
                     <p>I have a <a href="https://flickr.com/photos/binaryape">neglected Flickr account</a> that needs a
                         lot
@@ -143,6 +162,7 @@
                                 href="https://flickr.com/photos/binaryape/albums/72177720306392234">food section</a>.
                     </p>
 
+                    <p><a type="button" href="https://flickr.com/photos" class="nes-btn is-warning">Neglected Photography at Flickr</a></p>
                 </section>
             </section>
 
@@ -151,33 +171,47 @@
 
                     <p>I've been vegan since the early 1990s. My cooking skills have now reached the level of
                         Adequate.</p>
-                    <p>Flickr <a href="https://flickr.com/photos/binaryape/albums/72177720306392234">food section</a>. I
+                    <p>The <a href="https://gist.github.com/binaryape/c45e99814c1278eca17763fe6cbd0985">recipe I use for my kimchi</a> is on Github</p>
+                    <p>I often take  <a href="https://flickr.com/photos/binaryape/albums/72177720306392234">photos of the meals I cook</a>. I
                         eat huge amounts of leafy greens but everything in that album looks brown.</p>
+
+                    <p><a type="button" href="https://gist.github.com/binaryape/c45e99814c1278eca17763fe6cbd0985" class="nes-btn is-warning">My Easy Kimchi</a></p>
+
                 </section>
             </section>
 
 
             <section class="showcase">
                 <section class="nes-container with-title">
-                    <h3 class="title">Chunky Icons Linking to Hellsites (And Github)</h3>
+                    <h3 class="title">Chunky Icons Linking to Hellsites</h3>
                     <div id="sns-icons" class="item">
                         <section class="icon-list">
                             <!-- twitter -->
-                            <i class="nes-icon twitter is-large"></i>
-
-                            <!-- github -->
-                            <i class="nes-icon github is-large"></i>
+                            <a href=""><i class="nes-icon twitter is-large"></i></a>
 
                             <!-- linkedin -->
-                            <i class="nes-icon linkedin is-large"></i>
+                            <a href=""><i class="nes-icon linkedin is-large"></i></a>
 
                             <!-- youtube -->
-                            <i class="nes-icon youtube is-large"></i>
-
-
-                            <img class="smicon" src="assets/images/mastodon.jpg"/>
+                            <a href=""><i class="nes-icon youtube is-large"></i></a>
 
                         </section>
+
+                </section>
+            </section>
+
+            <section class="showcase">
+                <section class="nes-container with-title"><h3 class="title">Elsewhere</h3>
+
+                    <div id="lists" class="item">
+                        <div class="lists">
+                            <ul class="nes-list is-disc">
+                                <li><a href="http://orcid.org/0000-0003-4201-2264">0000-0003-4201-2264 at ORCID</a></li>
+                                <li><a href="https://mastodon.social/binaryape">binaryape at Mastodon</a></li>
+                                <li><a href="https://www.metafilter.com/user/62202">binaryape at Metafilter</a></li>
+                                <li>Binaryape for Playstation things</li>
+                            </ul>
+                        </div>
 
                 </section>
             </section>
@@ -190,17 +224,6 @@
 <hr/>
 <hr/>
 <hr/>
-
-<script src="./script.js"></script>
-<script>
-    const h = document.querySelector('head');
-    ['./lib/dialog-polyfill.css', './lib/highlight-theme.css'].forEach(a => {
-        const l = document.createElement('link');
-        l.href = a;
-        l.rel = 'stylesheet';
-        h.appendChild(l);
-    })
-</script>
 
 </body>
 </html>
